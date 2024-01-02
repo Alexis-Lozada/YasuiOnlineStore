@@ -2,7 +2,7 @@
     session_start();
     include('connection.php');
 
-    $imp_pago = $_GET['imp_pago'];
+    $imp_pagoo = $_GET['imp_pago'];
     $tipo_pago = "paypal";
 
 
