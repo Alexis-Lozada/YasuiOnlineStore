@@ -3,7 +3,7 @@
     include('connection.php');
 
     $imp_pagoo = $_GET['imp_pago'];
-    $tipo_pagos = "paypal";
+    $tipo_pago = "paypal";
 
 
     // Obtener el número de cliente
