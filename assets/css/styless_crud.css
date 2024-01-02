@@ -1,0 +1,56 @@
+.sidebar {
+    width: 280px;
+    float: left;
+    height: 100vh; /* 100% de la altura de la ventana */
+    position: fixed; /* Barra lateral fija */
+    top: 0; /* Se fija en la parte superior */
+    left: 0; /* Se fija en el lado izquierdo */
+    padding-top: 72px;
+}
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    margin-top: 72px;
+}
+h1 {
+    font-family: 'initial', 'sans-serif';
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-fav {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    font-size: 1.25rem;
+}
+
+.btn-black, 
+.btn:hover {
+    border: none;
+}
+.dropdown-item:active {
+    background-color: black;
+}
+
+.edit:hover {
+    color: #007bff;
+}
+.delete:hover {
+    color: #dc3545;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #007bff !important;
+}

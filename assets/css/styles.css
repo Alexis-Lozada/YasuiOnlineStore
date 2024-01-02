@@ -1,0 +1,148 @@
+h1 {
+    font-family: 'initial', 'sans-serif';
+    letter-spacing: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-fav {
+    border: none; 
+    background: none; 
+    padding: 0; 
+    font-size: 1.25rem;
+}
+
+.btn-black, 
+.btn:hover {
+    border: none;
+  }
+.dropdown-item:active {
+    background-color: black;
+}
+
+.dropdown-menu.show {
+    border-radius: 0;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 90px;
+}
+
+
+
+
+/* Carrusel */
+
+/* Estilo para mantener la relación de aspecto de las imágenes */
+.carousel-inner {
+    height: 60vh;
+    text-align: center; /* Centra horizontalmente el contenido */
+    display: flex; /* Activa el modelo de caja flexible para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    margin-top: 56px;
+}
+
+.carousel-inner img {
+    object-fit: contain; /* Mantiene la relación de aspecto y centra la imagen */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-caption {
+    height: 100%; /* Toma el 100% de la altura del contenedor */
+    display: flex; /* Usa flexbox para centrar vertical y horizontalmente */
+    flex-direction: column; /* Alinea el contenido en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra en el centro del contenedor */
+    width: 100%;
+}
+
+/* Carrusel */
+
+
+
+/* Cart */
+.space-header {
+    margin-top: 100px;
+}
+
+.form-check-label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313131;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-input:checked {
+    background-color: black;
+    border-color: #0d6efd;
+}
+
+.container-cart-img {
+    width: auto;
+    height: auto;
+}
+
+.container-cart-img img{
+    width: 70%;
+    height: auto; /* Asegura que la altura se ajuste proporcionalmente */
+    object-fit: cover; /* Controla cómo se ajusta la imagen dentro del div */
+}
+/* Cart */
+
+
+
+
+/* Estilos para Pantallas Tablets (768px a 1024px) */
+@media (min-width: 767px) and (max-width: 1024px) {
+    .carousel-inner {
+        height: 40vh;
+    }
+}
+
+/* Estilos para Pantallas Menores a 768px */
+@media (max-width: 767px) {
+    .carousel-inner {
+        height: 25vh;
+        margin-top: 81px;
+    }
+    .navbar {
+        justify-content: center;
+        margin: auto;
+    }
+
+    .space-header {
+        margin-top: 120px;
+    }    
+
+    /* Cart */
+    .descuento-cart {
+        display: none;
+    }
+    /* Cart */
+}
