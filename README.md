@@ -1,3 +1,5 @@
+# YasuiOnlineStore
+
 Versión en Español:
 
 Este proyecto fue desarrollado durante mi tercer cuatrimestre universitario. Consiste en una tienda en línea completamente funcional, abordando tanto el lado del cliente con funciones de compra, edición de perfil, facturación, carrito de compras, entre otras; como el lado del administrador, que cuenta con un panel de control y un catálogo por sucursal.
